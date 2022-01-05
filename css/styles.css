@@ -298,6 +298,12 @@ body {
   justify-content: center;
 }
 
+.team-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
 .team-social-item + .team-social-item {
   margin-left: 10px;
 }
@@ -306,8 +312,20 @@ body {
   width: 44px;
   height: 44px;
   background-color: #ffffff;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #2196f3;
+}
+
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+  fill: #ffffff;
 }
 
 /*--------------------FOOTER-----------------------*/
