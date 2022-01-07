@@ -90,7 +90,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: #212121;
 }
 
@@ -116,7 +115,7 @@ body {
 
 .header-icon:hover,
 .header-icon:focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .link-tel,
@@ -444,9 +443,21 @@ body {
 
 .footer {
   background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
   color: var(--second-title-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.footer-wrap {
+  display: flex;
+}
+
+.footer-first {
+  width: 25%;
+}
+
+.footer-social {
+  width: 25%;
 }
 
 .footer-logo {
@@ -497,11 +508,13 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 20px;
 }
 
 .footer-social-list {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .footer-social-icon {
@@ -567,6 +580,11 @@ body {
   height: 404px;
   border: 1px solid #eeeeee;
   margin-bottom: 30px;
+}
+
+.work:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .work:not(:nth-child(3n + 3)) {
