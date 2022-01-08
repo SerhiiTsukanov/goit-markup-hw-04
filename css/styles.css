@@ -578,11 +578,12 @@ body {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
-}
-
-.work:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
+
+/* .work:nth-child(-n + 6) {
+  margin-bottom: 30px;
+} */
 
 .work:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
