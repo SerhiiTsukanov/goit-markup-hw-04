@@ -113,11 +113,6 @@ body {
   margin-right: 10px;
 }
 
-.header-icon:hover,
-.header-icon:focus {
-  fill: var(--accent-color);
-}
-
 .link-tel,
 .link-mail {
   color: #757575;
@@ -125,27 +120,30 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-/* .link-mail::before {
-  width: 16px;
-  height: 12px;
-  background-image: url(../images/envelope.svg);
-  display: block;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
-
 .link-mail {
-  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.header-connect-item:hover,
+.header-connect-item:focus {
+  color: var(--accent-color);
 }
 
 .header-link:hover,
 .header-link:focus,
 .link-tel:hover,
 .link-mail:hover {
-  color: var(--accent-color);
+  color: currentColor;
+}
+
+.header-icon,
+.header-icon {
+  fill: currentColor;
 }
 
 /* -------------------------HERO----------------------- */
@@ -580,6 +578,10 @@ body {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
+}
+
+.work:nth-child(-n + 6) {
+  margin-bottom: 30px;
 }
 
 .work:hover {
