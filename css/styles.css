@@ -129,13 +129,13 @@ body {
   margin-right: 30px;
 }
 
+.header-link:hover,
+.header-link:focus,
 .header-connect-item:hover,
 .header-connect-item:focus {
   color: var(--accent-color);
 }
 
-.header-link:hover,
-.header-link:focus,
 .link-tel:hover,
 .link-mail:hover {
   color: currentColor;
