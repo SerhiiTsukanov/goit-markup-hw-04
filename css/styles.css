@@ -129,6 +129,8 @@ body {
   margin-right: 30px;
 }
 
+.link-tel:focus,
+.link-mail:focus,
 .header-link:hover,
 .header-link:focus,
 .header-connect-item:hover,
